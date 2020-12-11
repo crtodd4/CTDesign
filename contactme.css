@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@300&display=swap");
+
+nav {
+  display: grid;
+  background-color: #439bcc;
+  grid-template-columns: 70% 3fr 3fr 3fr;
+  padding: 0.5em;
+  padding-right: 2em;
+  padding-left: 1em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+}
+
+footer{
+  display: flex;
+  background-color: #439bcc;
+  justify-content: center;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+}
+
+h2 {
+  font-family: "BenchNine", sans-serif;
+  font-size: 30px;
+  color: white;
+  justify-self: center;
+}
+
+h1 {
+  font-family: "Mada", sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+h2:hover {
+  color: lightgray;
+}
+
+p {
+  font-family: "Mada", sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+body {
+  background-color: #f3fbff;
+}
+
+h4{
+  font-family: "Mada", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  
+}
+
+#mail:hover {
+  letter-spacing: 0.8em;
+  background-color: #439bcc;
+}
+#facebook:hover {
+  letter-spacing: 0.8em;
+  background-color: #439bcc;
+}
+#linkedin:hover {
+  letter-spacing: 0.8em;
+  background-color: #439bcc;
+}
+
+button {
+  height: 5em;
+  width: 25%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: lightgray;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+h2:hover{
+  letter-spacing: 2px;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}

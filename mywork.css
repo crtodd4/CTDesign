@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@300&display=swap");
+
+nav {
+  display: grid;
+  background-color: #439bcc;
+  grid-template-columns: 70% 3fr 3fr 3fr;
+  padding: 0.5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+  padding-right: 2em;
+  padding-left: 1em;
+}
+
+h2 {
+  font-family: "BenchNine", sans-serif;
+  font-size: 30px;
+  color: white;
+  justify-self: center;
+}
+
+h1 {
+  font-family: "Mada", sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+
+body {
+  background-color: #f3fbff;
+}
+
+#card-set {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+img {
+  margin: 10px;
+  border: solid 1.5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+}
+
+p {
+  font-family: "Mada", sans-serif;
+  font-weight: 300px;
+}
+
+span {
+  color: #439bcc;
+}
+
+a:hover {
+  color: salmon;
+}
+
+footer{
+  display: flex;
+  background-color: #439bcc;
+  justify-content: center;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+}
+h4{
+  font-family: "Mada", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+h2:hover{
+  color: lightgray;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+  letter-spacing: 2px;
